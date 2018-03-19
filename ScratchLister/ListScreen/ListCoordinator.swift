@@ -13,7 +13,8 @@ class ListCoordinator: Coordinator {
     private var navigationController: UINavigationController
     private weak var delegate: ListCoordinatorDelegate?
     
-    init(navigationController: UINavigationController, delegate: ListCoordinatorDelegate) {
+    init(navigationController: UINavigationController,
+         delegate: ListCoordinatorDelegate) {
         self.navigationController = navigationController
         self.delegate = delegate
     }
@@ -24,7 +25,8 @@ class ListCoordinator: Coordinator {
     }
     
     private func showListViewController() {
-        let listViewController = ListViewController()
+        let listViewModel = ListViewModel()
+        let listViewController = ListViewController(listViewModel: listViewModel)
         navigationController.show(listViewController, sender: self)
     }
 }
