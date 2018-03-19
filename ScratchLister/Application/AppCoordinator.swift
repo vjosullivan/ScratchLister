@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AppCoordinator {
+class AppCoordinator: Coordinator {
 
     private var navigationController: UINavigationController
     
@@ -16,7 +16,18 @@ class AppCoordinator {
         self.navigationController = navigationController
     }
     
-    public func start() {
-        
+    func start() {
+        print("Start AppCoordinator")
+        showList()
     }
+    
+    private func showList() {
+        let listCoordinator = ListCoordinator(navigationController: navigationController,
+                                              delegate: self)
+        listCoordinator.start()
+    }
+}
+
+extension AppCoordinator: ListCoordinatorDelegate {
+    
 }
