@@ -20,5 +20,11 @@ class ListCoordinator: Coordinator {
     
     func start() {
         print("Start ListCoordinator.")
+        showListViewController()
+    }
+    
+    private func showListViewController() {
+        let listViewController = ListViewController()
+        navigationController.show(listViewController, sender: self)
     }
 }

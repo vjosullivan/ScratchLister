@@ -16,6 +16,8 @@
 		34AA9F7F205F94E10002891B /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA9F7E205F94E10002891B /* ListCoordinator.swift */; };
 		34AA9F81205F95250002891B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA9F80205F95250002891B /* Coordinator.swift */; };
 		34AA9F83205F98610002891B /* ListCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA9F82205F98610002891B /* ListCoordinatorDelegate.swift */; };
+		34AA9F85205F9B220002891B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA9F84205F9B220002891B /* ListViewController.swift */; };
+		34AA9F87205F9B330002891B /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AA9F86205F9B330002891B /* ListView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		34AA9F7E205F94E10002891B /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
 		34AA9F80205F95250002891B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		34AA9F82205F98610002891B /* ListCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		34AA9F84205F9B220002891B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		34AA9F86205F9B330002891B /* ListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 			children = (
 				34AA9F7E205F94E10002891B /* ListCoordinator.swift */,
 				34AA9F82205F98610002891B /* ListCoordinatorDelegate.swift */,
+				34AA9F84205F9B220002891B /* ListViewController.swift */,
+				34AA9F86205F9B330002891B /* ListView.xib */,
 			);
 			path = ListScreen;
 			sourceTree = "<group>";
@@ -214,6 +220,7 @@
 			files = (
 				34AA9F64205F8FD70002891B /* LaunchScreen.storyboard in Resources */,
 				34AA9F61205F8FD70002891B /* Assets.xcassets in Resources */,
+				34AA9F87205F9B330002891B /* ListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +244,7 @@
 				34AA9F7F205F94E10002891B /* ListCoordinator.swift in Sources */,
 				34AA9F5A205F8FD70002891B /* AppDelegate.swift in Sources */,
 				34AA9F83205F98610002891B /* ListCoordinatorDelegate.swift in Sources */,
+				34AA9F85205F9B220002891B /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
